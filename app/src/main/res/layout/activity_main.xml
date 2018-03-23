@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hugopinto.basketball.MainActivity">
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/textTeamB"
+        android:layout_marginBottom="140dp"
+        android:background="#000"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/textTeamA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team A"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="55dp"
+        />
+
+    <TextView
+        android:id="@+id/textTeamB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team B"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="51dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentTop="true"
+        android:textSize="25sp"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:id="@+id/CA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="50sp"
+        android:layout_above="@id/BA1"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="120dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/CB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="50sp"
+        android:layout_above="@id/BA1"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="120dp"
+
+
+
+        />
+
+
+    <Button
+        android:id="@+id/BA1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/BB1"
+        android:layout_alignBottom="@+id/BB1"
+        android:layout_alignLeft="@+id/textTeamA"
+        android:layout_alignStart="@+id/textTeamA"
+        android:text="+1" />
+
+    <Button
+        android:id="@+id/BB1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="200dp"
+        android:text="+1" />
+
+    <Button
+        android:id="@+id/BB2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+2"
+        android:layout_alignBaseline="@id/BA2"
+        android:layout_marginLeft="250dp"
+        />
+    <Button
+        android:id="@+id/BB3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+3"
+        android:layout_marginLeft="250dp"
+        android:layout_below="@id/BB2"
+        />
+
+    <Button
+        android:id="@+id/BA2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BA1"
+        android:layout_marginLeft="55dp"
+        android:text="+2" />
+
+    <Button
+        android:id="@+id/BA3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BA2"
+        android:layout_marginLeft="55dp"
+        android:text="+3" />
+
+    <Button
+        android:id="@+id/BR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        />
+
+
+</RelativeLayout>
